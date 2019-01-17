@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "884314074597",
+    "firebase_url": "https://colinapos.firebaseio.com",
+    "project_id": "colinapos",
+    "storage_bucket": "colinapos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884314074597:android:b1f02937aee1289b",
+        "android_client_info": {
+          "package_name": "com.example.marclennardcolina.colinapos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884314074597-hso1srs833rv55gnb58l5kvustv56a6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marclennardcolina.colinapos",
+            "certificate_hash": "432f8eb419a4d160503b4d939c3867f6c5360435"
+          }
+        },
+        {
+          "client_id": "884314074597-atjf9fr2ufd7135ka8ir5b3crvr1uluc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFcg0UzwzBWURQLJQFo8z43_pnesbcETQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884314074597-atjf9fr2ufd7135ka8ir5b3crvr1uluc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

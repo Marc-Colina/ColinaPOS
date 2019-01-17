@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRecipeActivity">
+
+    <ImageView
+        android:id="@+id/addRecipe_ImageView"
+        android:layout_width="396dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/addRecipeEditTxt_AddRecipeBtn"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="ADD RECIPE"
+        android:background="#f3bf37"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ScrollView
+        android:layout_width="385dp"
+        android:layout_height="352dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/addRecipeEditTxt_MealType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Meal Type"
+                android:inputType="text|textPersonName"
+                tools:layout_editor_absoluteX="5dp"
+                tools:layout_editor_absoluteY="250dp" />
+
+            <EditText
+                android:id="@+id/addRecipeEditTxt_MealServing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Meal Serving"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="270dp" />
+
+            <EditText
+                android:id="@+id/addRecipeEditTxt_RecipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Recipe Name"
+                android:inputType="text|textPersonName"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <EditText
+                android:id="@+id/addRecipeEditTxt_CookingTime"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Cooking Time (mins)"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="121dp" />
+
+            <EditText
+                android:id="@+id/addRecipeEditTxt_Ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Ingredients"
+                android:inputType="textMultiLine"
+                tools:layout_editor_absoluteX="74dp"
+                tools:layout_editor_absoluteY="333dp" />
+
+            <EditText
+                android:id="@+id/addRecipeEditTxt_Instruction"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Instruction"
+                android:inputType="textMultiLine"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="232dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
